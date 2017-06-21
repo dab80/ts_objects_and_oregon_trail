@@ -71,6 +71,7 @@
             // console.log("Traveler " + this.name + " has " + this.food + " food left.");
             if (Math.random() >= .5) {
                 this.food = this.food + 100;
+                this.isHealthy = true;
             }
             // console.log("Traveler " + this.name + " has " + this.food + " food left.");
             return this.food;
